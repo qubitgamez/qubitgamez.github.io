@@ -3791,8 +3791,9 @@ blockquote:before {
     .header-nav .nav .open > a,
     .header-nav .nav .open > a:focus,
     .header-nav .nav .open > a:hover {
+        color: var(--color-secondry)!important;
         background-color: inherit;
-        border-color: #e9e9e9;
+        border-color: var(--color-secondry);
     }
 	.header-nav .nav > li .mega-menu > li ul a:hover,
 	.header-nav .nav > li .sub-menu li:hover > a{

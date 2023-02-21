@@ -6152,7 +6152,7 @@ HOME 5 Box Header
 	.header-nav .nav > li:focus > a,
 	.header-nav .nav > li:active > a,
 	.header-nav .nav > li:hover > a{
-		color: #313444!important;
+		color: var(--color-secondry)!important;
 	}
 	.frame-box .gallery-bx > div:last-child {
 		padding-left: 15px;

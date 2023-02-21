@@ -1190,6 +1190,10 @@ var Industry = function(){
 		jQuery('.menu-close').on('click',function(){
 			jQuery('.menu-close,.full-sidenav').removeClass('active');
 		});
+		jQuery('.has-mega-menu').on('click',function(){
+			jQuery('.header-nav').removeClass('show');
+			jQuery('.navbar-toggler').removeClass('open');
+		});			
 	}
 	
 	var handleSupport = function(){
