@@ -13680,12 +13680,12 @@ ol.commentlist li .star-rating {
 		width: 280px;
         background-color: var(--color-primary);
 	}
-	.mo-left .header-nav.show .nav.navbar-nav{
+	.mo-left .header-nav .nav.navbar-nav{
 		transition:all 0.8s;
 		-webkit-transition:all 0.8s;
 		-moz-transition:all 0.8s;
 		-o-transition:all 0.8s;        
-        background-color: var(--color-primary)!important;
+        background-color: var(--color-primary);
 	}    
 	.mo-left .navbar-toggler.open:after {
 		background-color: rgba(0, 0, 0, 0.6);
