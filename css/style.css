@@ -13678,7 +13678,15 @@ ol.commentlist li .star-rating {
 		-o-transition:all 0.8s;
 		margin:0;
 		width: 280px;
+        background-color: var(--color-primary);
 	}
+	.mo-left .header-nav.show .nav.navbar-nav{
+		transition:all 0.8s;
+		-webkit-transition:all 0.8s;
+		-moz-transition:all 0.8s;
+		-o-transition:all 0.8s;        
+        background-color: var(--color-primary)!important;
+	}    
 	.mo-left .navbar-toggler.open:after {
 		background-color: rgba(0, 0, 0, 0.6);
 		content: "";
